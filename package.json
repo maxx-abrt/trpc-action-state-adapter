@@ -1,0 +1,63 @@
+{
+  "name": "trpc-action-state-adapter",
+  "version": "1.0.0",
+  "description": "A lightweight adapter that wraps a tRPC v11 Server Action for use with React 19's useActionState hook, parsing FormData into nested JSON and formatting Zod validation errors into fieldErrors.",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@trpc/server": "^11.0.0",
+    "zod": "^3.23.0 || ^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@trpc/server": {
+      "optional": false
+    },
+    "zod": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@trpc/server": "^11.0.0",
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0",
+    "zod": "^3.23.0"
+  },
+  "keywords": [
+    "trpc",
+    "react19",
+    "useactionstate",
+    "server-actions",
+    "nextjs",
+    "formdata",
+    "zod",
+    "adapter"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
