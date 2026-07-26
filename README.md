@@ -5,7 +5,9 @@
 [![npm version](https://img.shields.io/npm/v/trpc-action-state-adapter.svg)](https://www.npmjs.com/package/trpc-action-state-adapter)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![types: TypeScript](https://img.shields.io/badge/types-TypeScript-blue.svg)](https://www.typescriptlang.org/)
-[![Npm package total downloads](https://badgen.net/npm/dt/express)](https://www.npmjs.com/package/trpc-action-state-adapter?activeTab=dependents)
+[![Npm package total downloads](https://badgen.net/npm/dt/trpc-action-state-adapter)](https://www.npmjs.com/package/trpc-action-state-adapter)
+
+
 **Connect tRPC v11 Server Actions to React 19's `useActionState` — without the boilerplate.**
 
 </div>
